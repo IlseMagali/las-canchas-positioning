@@ -12,9 +12,9 @@ porteriaDer.id = "poteriaDer";
 porteriaIzq.id = "porteriaIzq";
 circuloCentral.id = "circuloCentral";
 
-// canchaFondo.style.backgroundColor = "green";
-// canchaFondo.style.width = "70" + "%";
-// canchaFondo.style.height = "350" + "px";
+canchaFondo.style.backgroundColor = "green";
+canchaFondo.style.width = "70" + "%";
+canchaFondo.style.height = "350" + "px";
 
 canchaUno.style.backgroundColor = "white";
 
@@ -27,5 +27,5 @@ canchaFondo.appendChild(porteriaIzq);
 canchaFondo.appendChild(porteriaDer);
 canchaFondo.appendChild(circuloCentral);
 
-canchaFondo.innerHTML = contenedor;
-// canchaFondo.innerHTML = canchaUno;
+// canchaFondo.innerHTML = contenedor;
+// // canchaFondo.innerHTML += canchaUno;
