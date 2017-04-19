@@ -1,6 +1,77 @@
-#canchafondo {
-  background-color: green;
-  width: 70%;
-  height: 200px;
-  margin:auto;
+
+.canchaFondo{
+  background-color: #367F4F;
+  width: 595px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.canchaUno{
+  background-color: #52BF77;
+  border: whitesmoke solid 1px;
+  width: 580px;
+  height: 383px;
+  position:relative;
+  left:6px;
+  top:7px;
+}
+
+.porteria{
+  background-color: #64EB92;
+  border: whitesmoke solid 1px;
+  width: 80px;
+  height: 140px;
+}
+
+.porteriaDer {
+  position:absolute;
+  top: 120px;
+  right: 0;
+}
+
+.porteriaIzq {
+  position:absolute;
+  top: 120px;
+  left:0;
+}
+
+.circuloCentral {
+     width: 80px;
+     height: 80px;
+     -moz-border-radius: 60%;
+     -webkit-border-radius: 60%;
+     border-radius: 50%;
+     border:whitesmoke solid 1px;
+     background-color: #64EB92;
+     position:absolute;
+     top: 152px;
+     left:245px;
+}
+
+.pelota{
+  width: 20px;
+  height: 20px;
+  -moz-border-radius: 60%;
+  -webkit-border-radius: 60%;
+  border-radius: 50%;
+  background-color:whitesmoke;
+}
+
+.pelotaizq {
+  position:absolute;
+  top:113px;
+  left:73px;
+}
+
+.pelotacentral {
+  position:absolute;
+  top:70px;
+  left:240px;
+}
+
+.pelotadere {
+  position:absolute;
+  right:80px;
+  bottom:121px;
 }
